@@ -1,0 +1,142 @@
+body {
+    background-color: #1E1E1E;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding-left: 0;
+}
+
+.logo {
+    padding-top: 20px;
+}
+
+a {
+    font-size: 20px;
+}
+
+.fa-sun {
+    visibility: hidden;
+}
+
+.welcome {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    padding-left: 40%;
+    align-items: center;
+    text-align: center;
+}
+
+.hi {
+    color: #06AAF9; 
+    font-size: 15px;
+}
+
+.name {
+    color: #B1B1B1;
+    font-size: 40px;
+}
+
+.doing {
+    color: #959595;
+    font-size: 40px;
+}
+
+.who {
+    color: grey;
+    font-size: 17px;
+}
+
+.about {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    padding-left: 40%;
+    align-items: center;
+    text-align: center;
+}
+
+.about-me {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.selfie {
+    padding-left: 0;
+    width: 200px;
+    height: 200px;
+    padding-left: 0;
+}
+
+.card {
+    background-color: #1E1E1E;
+    color: grey;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    padding-left: 20%;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.stats {
+    visibility: hidden;
+}
+
+.contact {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    padding-left: 40%;
+    align-items: center;
+    text-align: center;
+}
+
+.fa-arrow-down {
+    padding-left: 0;    
+}
+
+.qr-code {
+    padding-left: 0;
+}
+
+a {
+    margin: 10px;
+}
+
+.visits {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    padding-left: 60%;
+    align-items: center;
+    text-align: center;
+    gap: 0.75rem;
+}
+
+footer {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    padding-left: 75%;
+}
+
+.preloader {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1E1E1E;
+    justify-content: center;
+    align-items: center;
+}

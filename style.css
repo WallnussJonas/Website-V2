@@ -1,0 +1,174 @@
+html {
+    background: #1E1E1E;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1E1E1E;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    padding-left: 20px;
+    float: left;
+}
+
+a.active {
+    color: white;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+    margin: 50px 20px;
+}
+
+.fa-solid {
+    padding-top: 20px;
+    margin: 5px;
+}
+
+b {
+    float: right;
+    color: gray;
+    padding-right: 100px;
+}
+
+.welcome {
+    padding-left: 400px;
+    padding-top: 170px;
+}
+
+.hi {
+    color: #06AAF9; 
+    font-size: 15px;
+}
+
+.name {
+    color: #B1B1B1;
+    font-size: 70px;
+}
+
+.doing {
+    color: #959595;
+    font-size: 70px;
+}
+
+.who {
+    color: grey;
+    font-size: 20px;
+}
+
+.about {
+    display: flex;
+    color: #959595;
+    text-align: center;
+    padding-left: 400px;
+}
+
+.selfie {
+    width: 300px;
+    height: 300px;
+    padding-top: 40px;
+    margin-left: 40px;
+}
+
+.card {
+    background-color: gray;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 3% 20%;
+    color: whitesmoke;
+}
+
+.projects-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stats {
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.contact {
+    color: #959595;
+    padding-left: 500px;
+    font-size: 20px;
+}
+
+.fa-arrow-down {
+    padding-left: 230px;
+}
+
+.qr-code {
+    height: 100px;
+    width: 100px;
+    padding-left: 200px;
+}
+
+footer {
+    color: gray;
+    align-items: center;
+    text-align: center;
+}
+
+
+.preloader {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    animation: spin 2s ease infinite;
+}
+
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+.scroll-lock {
+    overflow: hidden !important;
+}
+
+.dark-mode {
+    background-color: white;
+}
+
+.dark-mode p, .dark-mode h1, .dark-mode h2, .dark-mode a {
+    color: black;
+}
+
+.visits {
+    text-align: center;
+    color: grey;
+}
+
+.icon {
+    visibility: hidden;
+}
